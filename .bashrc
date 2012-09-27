@@ -54,7 +54,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] ($(git branch 2>/dev/null | grep '^*' | colrm 1 2))  \n    \$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] $(git branch 2>/dev/null | grep '^*' | colrm 1 2)  \n    \$ '
 
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
@@ -108,3 +108,5 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 alias tumx='tmux -2'
+alias gravelpit='ssh ngon2@gravelpit.housing.wwu.edu'
+alias cf416='ssh ngon2@cf416.cs.wwu.edu'
