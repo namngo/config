@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/var/www/flyout/stylesheets/sass'
+let g:netrw_dirhist_2='/home/nngo/.config/fish'
+let g:netrw_dirhist_3='/ssd/svn/uilib/scripts'
+let g:netrw_dirhist_4='/ssd/svn/uilib/scripts/form/field'
+let g:netrw_dirhist_5='/ssd/svn/uilib/styles'
+let g:netrw_dirhist_6='/ssd/svn/uilib/scripts/form/field'
+let g:netrw_dirhist_7='/ssd/svn/onefs-head.git/src/isilon/scripts/isi_webui/static/onefs/scripts/app/controller/about'
+let g:netrw_dirhist_8='/ssd/svn/onefs-head.git/src/isilon/scripts/isi_webui/static/onefs/scripts/app/model/smb'
+let g:netrw_dirhist_9='/ssd/svn/onefs-head.git/src/isilon/scripts/isi_webui/static/onefs/scripts/app/model/snapshot'
