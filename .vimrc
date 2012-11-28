@@ -43,6 +43,7 @@ set foldlevel=20
 set scrolloff=8
 
 syntax on
+filetype indent plugin on
 set background=dark
 
 nmap <F5> :set invnumber <CR>
