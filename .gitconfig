@@ -1,0 +1,9 @@
+[user]     
+    name = Nam Ngo    
+    email = ngon2@students.wwu.edu    
+[core]     
+    excludesfile = ~/.gitignore
+[alias]
+    st = status
+    com = commit
+    co = checkout
