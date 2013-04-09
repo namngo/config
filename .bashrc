@@ -110,3 +110,4 @@ fi
 alias tumx='tmux -2'
 alias gravelpit='ssh ngon2@gravelpit.housing.wwu.edu'
 alias cf416='ssh ngon2@cf416.cs.wwu.edu'
+alias off='sudo shutdown -h now'
