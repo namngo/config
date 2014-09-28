@@ -7,3 +7,4 @@
     st = status
     com = commit
     co = checkout
+    br = branch
