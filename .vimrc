@@ -8,7 +8,6 @@ vmap <Right> >gv
 nnoremap <Up> <C-w>l
 nnoremap <Down> <C-w>h
 
-set relativenumber
 
 set nocompatible
 filetype on
