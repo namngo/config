@@ -14,3 +14,6 @@ Set-Alias open-newpr -Value Open-NewPullRequest
 
 # Launch
 Set-Alias Invoke-VS -Value Invoke-VisualStudio
+
+# Esp32
+Set-Alias idf.py -Value Invoke-Idf
