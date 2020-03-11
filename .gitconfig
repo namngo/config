@@ -1,8 +1,6 @@
 [user]     
     name = Nam Ngo    
     email = nam.ngo.shop@gmail.com 
-[core]     
-    excludesfile = ~/.gitignore
 [alias]
     st = status
     com = commit
