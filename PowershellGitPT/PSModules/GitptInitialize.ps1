@@ -1,19 +1,20 @@
 if ($repoRootFolder -eq $null) {
-    $repoRootFolder = "F:\repo\"
+    $repoRootFolder = "H:\hobby\"
 }
 
-$projectFolders = @($repoRootFolder, "$repoRootFolder`Side\", $repoRootFolder+"config\", $repoRootFolder +"electronic\")
+$projectFolders = @($repoRootFolder, "$repoRootFolder`Hobby\", "H:\", "H:\config\")
 $repositoriesAliasMapping = @{
     "psgitpt" = "PowershellGitPT";
     "df" = "DragonFly";
     "car" = "CarLightEsp32";
+    "misc" = "MiscBoard";
+    "eagle" = "EagleCustomParts";
 }
 
 Import-Module $PSScriptRoot\Esp.psm1 -DisableNameChecking
 Import-Module $PSScriptRoot\Git.psm1 -DisableNameChecking
 Import-Module $PSScriptRoot\Alias.psm1 -DisableNameChecking
 Import-Module $PSScriptRoot\Repository.psm1 -DisableNameChecking
-
 
 # Set powershell environment
 $myprofile = "$PSScriptRoot\GitPTInitialize.ps1"

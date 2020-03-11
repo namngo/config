@@ -1,3 +1,3 @@
-$repoRootFolder = "C:\Users\nango\repo\"
+$repoRootFolder = "H:\hobby"
 
-. C:\Users\nango\repo\personal\PowershellGitPT\PSModules\GitptInitialize.ps1
+. H:\config\PowershellGitPT\PSModules\GitptInitialize.ps1
